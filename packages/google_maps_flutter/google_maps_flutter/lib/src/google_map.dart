@@ -339,10 +339,10 @@ class _GoogleMapState extends State<GoogleMap> {
     }
   }
 
-  void onPolygonTap(PolygonId polygonId) {
-    assert(polygonId != null);
-    _polygons[polygonId].onTap();
-  }
+  // void onPolygonTap(PolygonId polygonId) {
+  //   assert(polygonId != null);
+  //   _polygons[polygonId].onTap();
+  // }
 
   void onPolylineTap(PolylineId polylineId) {
     assert(polylineId != null);
